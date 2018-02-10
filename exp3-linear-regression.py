@@ -1,4 +1,9 @@
-from random import seed
+"""
+Based on the Tutorial provided on Machine Learning Mastery
+https://machinelearningmastery.com/implement-simple-linear-regression-scratch-python/
+Improvised by adding dataset and train-test split as arguments
+run as: python exp3-linear-regression.py --filename path-to-formatted-dataset --split [0, 1]
+"""from random import seed
 from random import randrange
 from csv import reader
 from math import sqrt
